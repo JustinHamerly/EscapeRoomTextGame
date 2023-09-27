@@ -14,3 +14,7 @@ class GameObject:
 	
 	def sniff(self):
 		return f"You sniff the {self.name}. {self.smell}\n"
+
+game_object = GameObject("Knife", "Sharp, short and very clean", "warm to the touch", "iron like blood and oak");
+
+print(game_object.look(), game_object.touch(), game_object.sniff())
